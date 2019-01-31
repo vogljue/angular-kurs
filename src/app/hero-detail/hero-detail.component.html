@@ -1,0 +1,12 @@
+<div *ngIf="hero">
+  <h2 class="mat-h2">{{hero.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{hero.id}}</div>
+  <div>
+    <mat-form-field appearance="outline" [floatLabel]="auto">
+        <mat-label>Name:</mat-label>
+        <input matInput [(ngModel)]="hero.name" placeholder="name">
+   </mat-form-field>
+   
+  <button mat-flat-button (click)="goBack()" color="primary">go back</button>
+   </div>
+</div>

@@ -1,0 +1,19 @@
+.mat-toolbar.mat-primary {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.toolbar-icon {
+  padding: 0 14px;
+}
+
+.toolbar-spacer {
+  flex: 1 1 auto;
+}
+
+
+.mat-nav-list a.active {
+  background: grey;
+}
